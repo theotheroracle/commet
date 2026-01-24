@@ -49,7 +49,10 @@
         libraries = with pkgs; [
               olm
               libdrm
+	      libsysprof-capture
               mesa
+	      libxdmcp
+	      webkitgtk_4_1
         ];
 
         packages = with pkgs; [
